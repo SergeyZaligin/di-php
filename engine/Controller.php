@@ -26,5 +26,6 @@ abstract class Controller
     public function __construct(DI $di) 
     {
         $this->di = $di;
+        $this->view = $di->get('view');
     }
 }

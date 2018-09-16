@@ -66,11 +66,11 @@ class Cms
                 $parameters
             );
 
-            echo '<pre>';
-            print_r($class);
-            echo '<br>';
-            print_r($action);
-            echo '</pre>';
+            // echo '<pre>';
+            // print_r($class);
+            // echo '<br>';
+            // print_r($action);
+            // echo '</pre>';
             //print();
         } catch (\Exception $e) {
             echo $e->getMessage();
